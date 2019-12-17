@@ -1,6 +1,7 @@
-# lp-sample-1
-
-> lp website
+# hicoder-lp
+- ランディングページっぽいものを作る練習をしています。
+- 構成はNuxt.jsで`npm run generate`して静的サイトとして扱います。
+- これはHiCoderの公式HPへの提案になる予定です。
 
 ## Build Setup
 

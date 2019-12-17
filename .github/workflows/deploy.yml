@@ -1,0 +1,36 @@
+name: DEPLOY
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@master
+      with:
+        node-version: '10.x'
+    - run: npm install
+    - run: npm run generate
+    - names: Deploy to Netlify
+      uses: netlify/actions/cli@master
+      run: deploy --dir=dist
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+
+# workflow "Workflow" {
+#   on = "push"
+#   resolves = ["Publish"]
+# }
+
+# action "node"
+
+# action "Publish" {
+#   uses = "netlify/actions/cli@master"
+#   args = "deploy --dir=dist"
+#   secrets = ["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]
+# }

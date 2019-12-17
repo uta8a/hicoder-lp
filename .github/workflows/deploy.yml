@@ -8,22 +8,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    # checkout
-    - uses: actions/checkout@master
-    # generate
-    - name: Generate static file
-      uses: actions/setup-node@master
-      with:
-        node-version: 10.x
-      run: npm install
-      run: npm run generate
-    # netlify deploy
-    - name: Deploy to Netlify
-      uses: netlify/actions/cli@master
-      env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      run: deploy --dir=dist
+      # checkout
+      - uses: actions/checkout@master
+      # generate
+      - name: Generate static file
+        uses: actions/setup-node@master
+        with:
+          node-version: 10.x
+        run: npm install
+        run: npm run generate
+      # netlify deploy
+      - name: Deploy to Netlify
+        uses: netlify/actions/cli@master
+        args: deploy --dir=dist
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 
 
 # workflow "Workflow" {

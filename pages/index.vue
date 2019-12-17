@@ -1,6 +1,8 @@
 <template>
-  <div class="is-clipped">
-    <div id="main-op" class="notification is-success" @animationend="$router.push('/home')">HiCoder</div>
+  <div>
+    <div id="main-op" class="notification is-success is-paddingless is-marginless" 
+    @animationend="$router.push('/home')"
+    >HiCoder</div>
     <div id="wrap" class="is-clipped">
       <div id="one" class="half"></div>
       <div id="two" class="half"></div>

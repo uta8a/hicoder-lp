@@ -6,7 +6,7 @@
     style="position:sticky;top:0"
   >
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
+      <a class="navbar-item" href="/home">
         <img src="~assets/buefy.png" alt="Buefy" height="2em" />
       </a>
     </div>

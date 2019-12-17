@@ -8,12 +8,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    # checkout
     - uses: actions/checkout@master
+    # generate
     - uses: actions/setup-node@master
       with:
-        node-version: '10.x'
-    - run: npm install
-    - run: npm run generate
+        node-version: 10.x
+      run: npm install
+      run: npm run generate
+    # netlify deploy
     - names: Deploy to Netlify
       uses: netlify/actions/cli@master
       run: deploy --dir=dist

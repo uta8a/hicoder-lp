@@ -18,12 +18,12 @@ jobs:
       - run: npm install
       - run: npm run generate
       # netlify deploy
-      # - name: Deploy to Netlify
-      #   uses: netlify/actions/cli@master
-      #   args: deploy --dir=dist
-      #   env:
-      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      - name: Deploy to Netlify
+        uses: netlify/actions/cli@master
+        args: deploy --dir=dist
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 
 
 # workflow "Workflow" {

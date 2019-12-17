@@ -1,0 +1,18 @@
+{
+  "name": "lp-sample-1",
+  "version": "1.0.0",
+  "description": "lp website",
+  "author": "uta8a",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2"
+  },
+  "devDependencies": {}
+}

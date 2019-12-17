@@ -11,18 +11,19 @@ jobs:
     # checkout
     - uses: actions/checkout@master
     # generate
-    - uses: actions/setup-node@master
+    - name: Generate static file
+      uses: actions/setup-node@master
       with:
         node-version: 10.x
       run: npm install
       run: npm run generate
     # netlify deploy
-    - names: Deploy to Netlify
+    - name: Deploy to Netlify
       uses: netlify/actions/cli@master
-      run: deploy --dir=dist
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      run: deploy --dir=dist
 
 
 # workflow "Workflow" {

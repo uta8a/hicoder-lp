@@ -5,28 +5,6 @@
 </template>
 
 <script>
-import Nav from "~/components/Nav";
-export default {
-  components: {
-    Nav
-  },
-  data() {
-    return {
-      items: [
-        {
-          title: "Home",
-          icon: "home",
-          to: { name: "index" }
-        },
-        {
-          title: "Inspire",
-          icon: "lightbulb",
-          to: { name: "inspire" }
-        }
-      ]
-    };
-  }
-};
 </script>
 <style>
 html {

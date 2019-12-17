@@ -20,7 +20,8 @@ jobs:
       # netlify deploy
       - name: Deploy to Netlify
         uses: netlify/actions/cli@master
-      - run: deploy --dir=dist
+        with:
+          args: deploy --dir=dist
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

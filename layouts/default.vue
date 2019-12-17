@@ -1,14 +1,11 @@
 <template>
   <div>
-    <Nav></Nav>
-      <div class="container">
-        <nuxt />
-      </div>
+    <nuxt />
   </div>
 </template>
 
 <script>
-import Nav from '~/components/Nav'
+import Nav from "~/components/Nav";
 export default {
   components: {
     Nav
@@ -39,7 +36,7 @@ body {
   margin-top: -3.25rem;
 }
 .columns:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 </style>

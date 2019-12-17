@@ -1,22 +1,8 @@
 <template>
   <div>
-    <nav class="navbar header has-shadow is-primary is-fixed-top"  role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="~assets/buefy.png" alt="Buefy" height="28" />
-        </a>
-      </div>
-      <div id="menubar" class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="#a" data-target="a">Section A</a>
-          <a class="navbar-item" href="#b" data-target="b">Section B</a>
-          <a class="navbar-item" href="#c" data-target="c">Section C</a>
-        </div>
-      </div>
-    </nav>
-
-    <section class="main-content columns is-fixed-top">
-      <aside class="column is-2 section">
+    <Nav></Nav>
+    <section class="main-content columns">
+      <aside class="column is-2 section" style="padding-top: 1rem">
         <p class="menu-label is-hidden-touch">General</p>
         <ul class="menu-list">
           <li v-for="(item, key) of items" :key="key">
@@ -36,7 +22,11 @@
 </template>
 
 <script>
+import Nav from '~/components/Nav'
 export default {
+  components: {
+    Nav
+  },
   data() {
     return {
       items: [
@@ -55,3 +45,11 @@ export default {
   }
 };
 </script>
+<style>
+html {
+  margin-top: 3.25rem;
+}
+body {
+  margin-top: -3.25rem;
+}
+</style>

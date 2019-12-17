@@ -25,17 +25,3 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-
-
-# workflow "Workflow" {
-#   on = "push"
-#   resolves = ["Publish"]
-# }
-
-# action "node"
-
-# action "Publish" {
-#   uses = "netlify/actions/cli@master"
-#   args = "deploy --dir=dist"
-#   secrets = ["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]
-# }

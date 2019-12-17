@@ -7,7 +7,7 @@
   >
     <div class="navbar-brand">
       <a class="navbar-item" href="/home">
-        <img src="~assets/buefy.png" alt="Buefy" height="2em" />
+        <img src="~assets/hicoder.png" alt="HiCoder" height="2em" />
       </a>
     </div>
     <div id="menubar" class="navbar-menu">

@@ -15,8 +15,8 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: 10.x
-        run: npm install
-        run: npm run generate
+      - run: npm install
+      - run: npm run generate
       # netlify deploy
       # - name: Deploy to Netlify
       #   uses: netlify/actions/cli@master

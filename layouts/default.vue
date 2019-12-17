@@ -1,23 +1,9 @@
 <template>
   <div>
     <Nav></Nav>
-    <section class="main-content columns">
-      <aside class="column is-2 section" style="padding-top: 1rem">
-        <p class="menu-label is-hidden-touch">General</p>
-        <ul class="menu-list">
-          <li v-for="(item, key) of items" :key="key">
-            <nuxt-link :to="item.to" exact-active-class="is-active">
-              <b-icon :icon="item.icon" />
-              {{ item.title }}
-            </nuxt-link>
-          </li>
-        </ul>
-      </aside>
-
-      <div class="container column is-10">
+      <div class="container">
         <nuxt />
       </div>
-    </section>
   </div>
 </template>
 
@@ -51,5 +37,9 @@ html {
 }
 body {
   margin-top: -3.25rem;
+}
+.columns:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 </style>

@@ -12,9 +12,10 @@
     </div>
     <div id="menubar" class="navbar-menu">
       <div class="navbar-end">
-        <nuxt-link class="navbar-item" data-target="a" v-scroll-to="'#a'" to>Section A</nuxt-link>
-        <nuxt-link class="navbar-item" data-target="b" v-scroll-to="'#b'" to>Section B</nuxt-link>
-        <nuxt-link class="navbar-item" data-target="c" v-scroll-to="'#c'" to>Section C</nuxt-link>
+        <nuxt-link class="navbar-item" data-target="a" v-scroll-to="'#top'" to>Top</nuxt-link>
+        <nuxt-link class="navbar-item" data-target="b" v-scroll-to="'#about'" to>About</nuxt-link>
+        <nuxt-link class="navbar-item" data-target="c" v-scroll-to="'#news'" to>News</nuxt-link>
+        <nuxt-link class="navbar-item" data-target="c" v-scroll-to="'#contact'" to>Contact</nuxt-link>
       </div>
     </div>
   </nav>

@@ -7,6 +7,13 @@
 - 開催時刻
 - これまでの実績
 
+## > Todo
+- navbar design
+- loading animation
+- > PC完成
+- SPをテストする
+
+
 ## Build Setup
 
 ``` bash

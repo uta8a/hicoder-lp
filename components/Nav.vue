@@ -1,13 +1,13 @@
 <template>
   <nav
-    class="navbar header has-shadow is-primary"
+    class="navbar header"
     role="navigation"
     aria-label="main navigation"
     style="position:sticky;top:0"
   >
     <div class="navbar-brand">
       <a class="navbar-item" href="/home">
-        <img src="~assets/hicoder.png" alt="HiCoder" height="3.25rem" />
+        <img src="~assets/hicoder.png" alt="HiCoder" height="3rem" />
       </a>
     </div>
     <div id="menubar" class="navbar-menu">
@@ -20,3 +20,8 @@
     </div>
   </nav>
 </template>
+<style scoped>
+nav {
+  background-color: rgb(0, 0, 12);
+}
+</style>

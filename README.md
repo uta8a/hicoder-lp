@@ -13,6 +13,8 @@
 - > PC完成
 - SPをテストする
 
+## note
+- https://www.virment.com/how-to-add-custome-style-buefy/
 
 ## Build Setup
 
@@ -35,4 +37,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ```bash
 npm i -D vue-scrollto
+npm install node-sass sass-loader --save
 ```

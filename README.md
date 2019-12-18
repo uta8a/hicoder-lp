@@ -3,6 +3,10 @@
 - 構成はNuxt.jsで`npm run generate`して静的サイトとして扱います。
 - これはHiCoderの公式HPへの提案になる予定です。
 
+## 要望
+- 開催時刻
+- これまでの実績
+
 ## Build Setup
 
 ``` bash

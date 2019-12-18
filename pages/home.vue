@@ -26,3 +26,23 @@ export default {
   }
 };
 </script>
+<style>
+.textbox {
+  color: white;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.title {
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+a {
+  color: white;
+}
+</style>

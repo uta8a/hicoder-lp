@@ -22,6 +22,10 @@
 </template>
 <style scoped>
 nav {
-  background-color: rgb(0, 0, 12);
+  background: linear-gradient(
+      90deg,
+      rgb(253, 18, 1),
+      rgb(55, 0, 255)
+    );
 }
 </style>

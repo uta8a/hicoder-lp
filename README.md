@@ -8,7 +8,7 @@
 - これまでの実績
 
 ## > Todo
-- navbar design
+- :ok: navbar design
 - loading animation
 - > PC完成
 - SPをテストする

@@ -35,4 +35,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.textbox {
+  text-align: center;
+}
 </style>

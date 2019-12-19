@@ -25,8 +25,18 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (max-width: 767px) {  
+  .main-title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1020px) and (min-width: 768px) {
+  .main-title {
+    font-size: 10rem;
+  }
+}
 .main-title {
-  font-size: 10rem;
   font-weight: bold;
 }
 </style>

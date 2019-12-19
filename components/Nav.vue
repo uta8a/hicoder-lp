@@ -3,7 +3,7 @@
     class="navbar header"
     role="navigation"
     aria-label="main navigation"
-    style="position:sticky;top:0"
+    style="position: -webkit-sticky;position:sticky;top:0"
   >
     <div class="navbar-brand">
       <a class="navbar-item" href="/home">

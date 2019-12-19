@@ -27,9 +27,26 @@ export default {
 };
 </script>
 <style>
+@media (max-width: 767px) {  
+  .textbox {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1020px) and (min-width: 768px) {
+  .textbox {
+    font-size: 2.5rem;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+}
+
 .textbox {
   color: white;
-  font-size: 2.5rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -39,7 +56,6 @@ export default {
 .title {
   text-align: center;
   color: white;
-  font-size: 3.5rem;
   font-weight: bold;
 }
 a {

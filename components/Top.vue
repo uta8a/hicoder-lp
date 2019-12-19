@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width: 1020px) and (min-width: 768px) {
+@media (min-width: 768px) {
   .main-title {
     font-size: 10rem;
   }

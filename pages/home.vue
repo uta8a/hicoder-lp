@@ -36,7 +36,7 @@ export default {
   }
 }
 
-@media (max-width: 1020px) and (min-width: 768px) {
+@media (min-width: 768px) {
   .textbox {
     font-size: 2.5rem;
   }

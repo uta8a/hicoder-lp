@@ -3,15 +3,15 @@
     <div id="contact-content" class="is-paddingless">
       <div class="textbox">
         <div class="inner title">Contact</div>
-        <div class="inner">連絡はメールアドレスへお願いします</div>
-        <div class="inner">メンバーのTwitterでも大丈夫です</div>
-        <div class="inner">mail: noumodulity[at]gmail.com</div>
+        <div class="inner">連絡はメールアドレスまたはTwitterへお願いします</div>
+        <div class="inner">TwitterのDMは開放しています</div>
+        <div class="inner">mail: huhicoder[at]gmail.com</div>
         <div class="inner">
           Twitter:
           <a
-            href="https://twitter.com/kaito_tateyama"
+            href="https://twitter.com/huhicoder"
             style="text-decoration:none"
-          >@kaito_tateyama</a>
+          >@huhicoder</a>
         </div>
       </div>
     </div>

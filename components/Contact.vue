@@ -30,7 +30,7 @@
       rgba(246, 255, 0, 0.75),
       rgba(255, 0, 161, 0.75)
     ),
-    url(~assets/my-photo-1.jpg);
+    url(~assets/my-photo-1.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

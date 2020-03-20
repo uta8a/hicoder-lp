@@ -21,7 +21,7 @@
       rgba(6, 28, 224, 0.568),
       rgba(18, 197, 182, 0.87)
     ),
-    url(~assets/my-photo-4.jpeg);
+    url(~assets/my-photo-4.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

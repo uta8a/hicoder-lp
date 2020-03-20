@@ -3,6 +3,7 @@
     <div id="top-content" class="is-paddingless">
       <div class="textbox">
         <div class="inner title main-title">HiCoder</div>
+        <div class="inner title">次回開催は未定です</div>
       </div>
     </div>
   </section>

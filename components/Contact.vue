@@ -5,6 +5,7 @@
         <div class="inner title">Contact</div>
         <div class="inner">連絡はメールアドレスまたはTwitterへお願いします</div>
         <div class="inner">TwitterのDMは開放しています</div>
+        <div class="inner">匿名で質問できる質問箱をやっています。(Twitterをチェック)</div>
         <div class="inner">mail: huhicoder[at]gmail.com</div>
         <div class="inner">
           Twitter:

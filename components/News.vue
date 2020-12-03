@@ -3,7 +3,7 @@
     <div id="news-content" class="is-paddingless">
       <div class="textbox">
         <div class="inner title">News</div>
-        <div class="inner">ここは自動でYAMLからgenerateして上位何件とってくるとかしたい</div>
+        <div class="inner"></div>
       </div>
     </div>
   </section>
